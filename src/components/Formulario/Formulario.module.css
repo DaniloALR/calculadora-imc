@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formularioInput{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+
+    font-weight: bold;
+}   
+
+.resultado{
+    font-size: 24px;
+    text-align: center;
+}
