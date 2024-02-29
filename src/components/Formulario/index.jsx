@@ -23,7 +23,7 @@ const Formulario = () => {
         } else if(imc > 40){
             setClassificacao('Obesidade grave')
         }
-    })
+    },[imc])
 
 
 
